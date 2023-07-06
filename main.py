@@ -2,7 +2,7 @@ import openai
 from flask import Flask, request, render_template
 import docx2txt
 
-openai.api_key = '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'
+openai.api_key = '[openai api key]'
 
 app = Flask(__name__, static_folder='static')
 
